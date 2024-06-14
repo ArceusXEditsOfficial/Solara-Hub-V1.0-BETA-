@@ -1,0 +1,320 @@
+--[[
+
+		Free Solara Hub v1.0 Beta
+		By LAN and ASXE.
+
+]]
+
+
+-- Instances
+
+local Pcscript = Instance.new("ScreenGui")
+local FrameOfIt = Instance.new("Frame")
+local Guis = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local IconNONMASKED = Instance.new("ImageButton")
+local SomeCornerThing = Instance.new("UICorner")
+local UICorner = Instance.new("UICorner")
+local Dividers = Instance.new("Folder")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local Frame_6 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Scripts = Instance.new("Folder")
+local Antilag = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+
+-- Properties
+
+Pcscript.Name = "Pc script"
+Pcscript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Pcscript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+FrameOfIt.Name = "Frame Of It"
+FrameOfIt.Parent = Pcscript
+FrameOfIt.BackgroundColor3 = Color3.new(0.294118, 0.290196, 0.290196)
+FrameOfIt.BorderColor3 = Color3.new(0, 0, 0)
+FrameOfIt.BorderSizePixel = 0
+FrameOfIt.Position = UDim2.new(0.189795166, 0, 0.176654443, 0)
+FrameOfIt.Size = UDim2.new(0, 949, 0, 494)
+
+Guis.Name = "Guis"
+Guis.Parent = FrameOfIt
+
+TextLabel.Parent = Guis
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 12
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(9.0199741e-08, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 1014, 0, 51)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "[PC] Universal Solara Hub V1.0 (BETA)"
+TextLabel.TextColor3 = Color3.new(0.0901961, 1, 0.0901961)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+IconNONMASKED.Name = "Icon (NON MASKED)"
+IconNONMASKED.Parent = Guis
+IconNONMASKED.BackgroundColor3 = Color3.new(1, 1, 1)
+IconNONMASKED.BorderColor3 = Color3.new(0, 0, 0)
+IconNONMASKED.BorderSizePixel = 0
+IconNONMASKED.Position = UDim2.new(0.925713778, 0, 0.858591795, 0)
+IconNONMASKED.Size = UDim2.new(0, 75, 0, 70)
+IconNONMASKED.Image = "http://www.roblox.com/asset/?id=17844316818"
+
+SomeCornerThing.Name = "Some Corner Thing"
+SomeCornerThing.Parent = IconNONMASKED
+SomeCornerThing.CornerRadius = UDim.new(4, 0)
+
+UICorner.Parent = FrameOfIt
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+
+Dividers.Name = "Dividers"
+Dividers.Parent = FrameOfIt
+
+Frame.Parent = Dividers
+Frame.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.576846302, 0)
+Frame.Size = UDim2.new(0, 949, 0, 1)
+
+Frame_2.Parent = Dividers
+Frame_2.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.790419102, 0)
+Frame_2.Size = UDim2.new(0, 949, 0, -1)
+
+Frame_3.Parent = Dividers
+Frame_3.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.23349753, 0, 0.998312354, 0)
+Frame_3.Size = UDim2.new(0, 1, 0, -449)
+
+Frame_4.Parent = Dividers
+Frame_4.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.439408869, 0, 0.998312354, 0)
+Frame_4.Size = UDim2.new(0, -1, 0, -449)
+
+Frame_5.Parent = Dividers
+Frame_5.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_5.BorderColor3 = Color3.new(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.650246322, 0, 0.998312354, 0)
+Frame_5.Size = UDim2.new(0, -1, 0, -449)
+
+Frame_6.Parent = Dividers
+Frame_6.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_6.BorderColor3 = Color3.new(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.824630558, 0, 0.998312354, 0)
+Frame_6.Size = UDim2.new(0, 1, 0, -449)
+
+Frame_7.Parent = Dividers
+Frame_7.BackgroundColor3 = Color3.new(0.435294, 0.435294, 0.435294)
+Frame_7.BorderColor3 = Color3.new(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 0.367265463, 0)
+Frame_7.Size = UDim2.new(0, 949, 0, 1)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = FrameOfIt
+
+Antilag.Name = "Antilag"
+Antilag.Parent = Scripts
+Antilag.BackgroundColor3 = Color3.new(0.25098, 0.807843, 0.666667)
+Antilag.BorderColor3 = Color3.new(0, 0, 0)
+Antilag.BorderSizePixel = 0
+Antilag.Position = UDim2.new(0.0196363088, 0, 0.19611831, 0)
+Antilag.Size = UDim2.new(0, 182, 0, 56)
+Antilag.Font = Enum.Font.SourceSans
+Antilag.Text = "Fps Enhancer (Fps Booster)"
+Antilag.TextColor3 = Color3.new(0.694118, 1, 0.345098)
+Antilag.TextScaled = true
+Antilag.TextSize = 14
+Antilag.TextStrokeTransparency = 0
+Antilag.TextWrapped = true
+Antilag.MouseButton1Down:connect(function()
+	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+	local g = game
+	local w = g.Workspace
+	local l = g.Lighting
+	local t = w.Terrain
+	t.WaterWaveSize = 0
+	t.WaterWaveSpeed = 0
+	t.WaterReflectance = 0
+	t.WaterTransparency = 0
+	l.GlobalShadows = false
+	l.FogEnd = 9e9
+	l.Brightness = 0
+	settings().Rendering.QualityLevel = "Level01"
+	for i, v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0)
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1
+			v.BlastRadius = 1
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+			v.Enabled = false
+		elseif v:IsA("MeshPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+			v.TextureID = 10385902758728957
+		end
+	end
+	for i, e in pairs(l:GetChildren()) do
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+			e.Enabled = false
+		end
+	end
+end)
+
+
+UICorner_2.Parent = Antilag
+
+-- Scripts
+
+local function ALCO_fake_script() -- FrameOfIt.Dragg 
+	local script = Instance.new('LocalScript', FrameOfIt)
+
+	local UserInputService = game:GetService("UserInputService")
+	local frame = script.Parent
+	local dragging = false
+	local dragStart = nil
+	local startPos = nil
+	
+	local function startDrag(input)
+		dragging = true
+		dragStart = input.Position
+		startPos = frame.Position
+	end
+	
+	local function updateDrag(input)
+		if dragging then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end
+	
+	local function endDrag()
+		dragging = false
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			startDrag(input)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement then
+			updateDrag(input)
+		end
+	end)
+	
+	frame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			endDrag()
+		end
+	end)
+	
+	
+end
+coroutine.wrap(ALCO_fake_script)()
+local function TBDG_fake_script() -- FrameOfIt.RGB 
+	local script = Instance.new('LocalScript', FrameOfIt)
+
+	
+	local frame = script.Parent
+	
+	local function getRandomColor()
+		local red = math.random(0, 255) / 255
+		local green = math.random(0, 255) / 255
+		local blue = math.random(0, 255) / 255
+		return Color3.new(red, green, blue)
+	end
+	
+	local function lerpColor(color1, color2, alpha)
+		local red = color1.R + (color2.R - color1.R) * alpha
+		local green = color1.G + (color2.G - color1.G) * alpha
+		local blue = color1.B + (color2.B - color1.B) * alpha
+		return Color3.new(red, green, blue)
+	end
+	
+	local function smoothColorChange(duration)
+		local startColor = frame.BackgroundColor3
+		local endColor = getRandomColor()
+		local startTime = tick()
+	
+		while tick() - startTime < duration do
+			local elapsed = tick() - startTime
+			local alpha = elapsed / duration
+			frame.BackgroundColor3 = lerpColor(startColor, endColor, alpha)
+			wait(0.02) 
+		end
+	
+		frame.BackgroundColor3 = endColor
+	end
+	
+	
+	while true do
+		smoothColorChange(5) 
+	end
+	
+end
+coroutine.wrap(TBDG_fake_script)()
+local function QPDNTD_fake_script() -- Antilag.Rainbow Stroke 
+	local script = Instance.new('LocalScript', Antilag)
+
+	local textObject = script.Parent
+	local stroke = textObject:FindFirstChildOfClass("UIStroke")
+	
+	
+	if not stroke then
+		warn("UIStroke not found on the text object")
+		return
+	end
+	
+	local rainbowColors = {
+		Color3.fromRGB(255, 0, 0),    -- Red
+		Color3.fromRGB(255, 127, 0),  -- Orange
+		Color3.fromRGB(255, 255, 0),  -- Yellow
+		Color3.fromRGB(0, 255, 0),    -- Green
+		Color3.fromRGB(0, 0, 255),    -- Blue
+		Color3.fromRGB(75, 0, 130),   -- Indigo
+		Color3.fromRGB(148, 0, 211)   -- Violet
+	}
+	
+	local transitionSpeed = 0.1 
+	local currentIndex = 1
+	
+	while true do
+		for i = 1, #rainbowColors do
+			stroke.Color = rainbowColors[currentIndex]
+			currentIndex = currentIndex % #rainbowColors + 1
+			wait(transitionSpeed)
+		end
+	end
+	
+	
+end
+coroutine.wrap(QPDNTD_fake_script)()
